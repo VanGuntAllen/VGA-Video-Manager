@@ -490,7 +490,7 @@ SMTVS streaming media hosting service offers our members user's complete support
 			
 			</TextArea><br>";
 						
-                echo "&nbsp;<a href=\"#?f=$filename\" onclick=\"return confirm('Are you sure you want to delete?')\" >Delete</a><br>";
+                echo "&nbsp;<a href=\"delete_vid.php?f=$filename\" onclick=\"return confirm('Are you sure you want to delete?')\" >Delete</a><br>";
 			
 				echo "</div>";    
 				echo "<hr>";      	   	       
